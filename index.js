@@ -2,8 +2,8 @@ const addBtn = document.querySelector('#btn');
 const titleInput = document.querySelector('#title');
 const authorInput = document.querySelector('#author');
 
-const books = JSON.parse(localStorage.getItem('books')) || [];
-
+removeBook();
+books();
 addBtn.addEventListener('click', () => {
   let size;
   if (books.length == null) {
@@ -24,9 +24,9 @@ function removeBook(id) {
 }
 
 function showBooks() {
-  const Container = document.querySelector('.container');
+  const booksContainer = document.querySelector('.books-container');
   for (let i = 0; i < books.length; i++) {
-    Container.innerHTML += `<div><p>
+    booksContainer.innerHTML += `<div><p>
         ${books[i].title} <br />
         ${books[i].author} 
       </p>
