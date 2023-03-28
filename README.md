@@ -90,8 +90,10 @@ github pages.
 - LinkedIn: [@kayembajonathan](https://www.linkedin.com/in/jonathan-kayemba-b56247236/)
 
  **Author2**
-- GitHub: [@HearyKhuraijam](https://github.com/HenaryKhuraijam/)
-- LinkedIn:[]()
+- GitHub: [@HenaryKhuraijam](https://github.com/HenaryKhuraijam)
+- Twitter: [@HenaryKhuraijam](https://twitter.com/HenaryKhuraijam)
+- LinkedIn: [Henary Khuraijam](https://www.linkedin.com/in/henary-khuraijam)
+
 
 ## 🤝 Contributing <a name="contributing"></a>
 
