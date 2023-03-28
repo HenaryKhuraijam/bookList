@@ -7,29 +7,23 @@
   <title>Awesome-Book</title>
 </head>
 <body>
-  <h1>Awesome books</h1>
-  <section class="books-container">
-    <p>
-      Lorem Ipsum <br />
-      Testeroo Testyy
-    </p>
-    <button>Remove</button>
-    <hr />
-  </div>
-  <div>
-    <p>
-      Second book <br />
-      Testeroo Testyy
-    </p>
-    <button>Remove</button>
-    <hr />
-  </section>
-  <div>
-    <input type="text" id="title" name="title" placeholder="title">
-    <br /><br />
-    <input type="text" id="author" name="author" placeholder="author"/>
-    <br /><br />
-    <button id="btn" onclick="">Add</button>
+  <main class="container">
+    <div class="content">
+        <article class="list-container">
+            <div class="title-container">
+                <h1 class="title-bar">Awesome books</h1>
+            </div>
+            <div class="book-list"></div>
+        </article><br><br>
+        <article class="new-book-container">
+            <form action="" class="add-form">
+                <input type="text" id="title" class="title" placeholder="Title" required><br>
+                <input type="text" id="author" class="author" placeholder="Author" required><br>
+                <input type="submit" class="add-btn" value="Add">
+            </form>
+        </article>
+    </div>
+</main>
   </div>
   <script src="index.js"></script>
 </body>
