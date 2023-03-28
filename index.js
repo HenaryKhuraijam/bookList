@@ -1,13 +1,3 @@
-// Objects
-let book =[
-  {
-    title: 'Freedom of God', author: 'Jackson',
-  },
-  {
-    title: 'Make me free', author: 'Ethan kh',
-  }
-];
-
 // Storage Functions
 const getBooks = () => {
   let books;
@@ -33,7 +23,6 @@ const deleteBookStr = (bookIndex) => {
 
 // Array UI
 const list = document.querySelector('.book-list');
-
 
 const addBook = (book) => {
   const div = document.createElement('div');
