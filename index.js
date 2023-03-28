@@ -16,3 +16,27 @@ addBtn.addEventListener('click', () => {
   localStorage.setItem('books', JSON.stringify(books));
   location.reload();
 });
+
+function removeBook(id) {
+  const filtered = books.filter((book) => book.id !== id);
+  localStorage.setItem('books', JSON.stringify(filtered));
+  location.reload();
+}
+
+function showBooks() {
+  const Container = document.querySelector('.container');
+  for (let i = 0; i < books.length; i++) {
+    Container.innerHTML += `<div><p>
+        ${books[i].title} <br />
+        ${books[i].author} 
+      </p>
+      
+      <button onclick="removeBook(${books[i].id})">Remove</button>
+      <hr />
+    </div>`;
+  }
+}
+
+window.addEventListener('load', () => {
+  showBooks();
+});
