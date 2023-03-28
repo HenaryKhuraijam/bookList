@@ -1,4 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-list {
+  border: 1px solid black;
+  margin: 20px;
+}
+
+.add-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h3,
+p,
+.btn {
+  text-align: center;
+}
+
+.title {
+  padding: 10px;
+  width: 200px;
+}
+
+.author {
+  padding: 10px;
+  width: 200px;
+}
+
+.remove {
+  color: red;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
 }
