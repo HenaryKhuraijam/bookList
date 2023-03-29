@@ -26,53 +26,55 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 [South Africa Conference] <a name="Awesome Book">Awesome Book</a>
+<!-- PROJECT DESCRIPTION -->
 
-This is a South Africa Biggest event. 
+# 📖 [Awesome book] <a name="about-project">
+Hello , this a simple Awesome book project</a>
+
+[HenaryKhuraijam and kayembajonathan Awesome book's porject] is an amazng productiivity tool that provides MVP feel with its basic functionalities. It enable users to display books, add books, updatae statuses of books, and to delete books when the need arise.
 
 ## 🛠 Built With <a name="built-with">Html, css and javascript</a>
 
-### Tech Stack <a name="tech-stack">HTML5, CSS3, Javacript</a>
+### Tech Stack 
+HTML
+CSS
+JAVASCRIPT
 
-HTML5 css3 and javascript the latest versions were used in this project.
+### Key Features 
 
-
-### Key Features <a name="key-features"></a>
-
-- **[key_feature_1]** Awesome Book built with HTML5 CSS3 and javascript
-
+- **[Navbar]**
+- **[Add book]**
+- **[Show list of the books]**
+- **[Romove book]**
+- **[Linter is used]**
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://henarykhuraijam.github.io/bookList/)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
- Get your pc.
- Clone this project to your local machine. 
+To get a local copy up and running, follow these steps.
+
 
 ### Prerequisites
-Basic knownledge of computer.
 
-In order to run this project you need:
-live server.
+In order to run this project you need:You have to clone this project to your local machine
 
 ### Setup
 
-Clone this repository to your desired folder:
-https://github.com/HenaryKhuraijam/bookList.git
+Clone this repository to your desired folder: https://github.com/HenaryKhuraijam/bookList.git
 
 ### Install
 
-Install this project with:
-cd booklist.
+npm install
 
-### Run tests
+Install this project with: Any software which you are comfortable with
 
-To run tests, run the following command:
-npm test
 
 ### Deployment
 
@@ -94,10 +96,22 @@ github pages.
 - Twitter: [@HenaryKhuraijam](https://twitter.com/HenaryKhuraijam)
 - LinkedIn: [Henary Khuraijam](https://www.linkedin.com/in/henary-khuraijam)
 
+<!-- FUTURE FEATURES -->
+## Future Features
+
+- [ ] **[Responsive]**
+- [ ] **[Other features]**
+- [ ] **[Better style]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- FAQ (optional) -->
@@ -115,19 +129,21 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
+<!-- SUPPORT -->
+## ⭐ Show your support <a name="support"></a>
 
-Give a ⭐️ if you like this project!
+If you like this project please send you feedbacks and give it a start
 
-## Acknowledgments
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- ACKNOWLEDGEMENTS -->
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank in advance. This is the first draft of this project. It works on my machine. If you try it and run into problems, please create an issue; I'll do what I can to fix it.
 
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT]() licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
