@@ -144,6 +144,6 @@ I would like to thank in advance. This is the first draft of this project. It wo
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT]() licensed.
+This project is [MIT](https://github.com/HenaryKhuraijam/bookList/blob/navigation/LICENSE) licensed.
 
 
